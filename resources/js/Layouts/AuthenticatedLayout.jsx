@@ -28,7 +28,7 @@ export default function Authenticated({ header, children }) {
                                     href={route('dashboard')}
                                     active={route().current('dashboard')}
                                 >
-                                    Dashboard
+                                    Weather Dashboard
                                 </NavLink>
                             </div>
                         </div>
@@ -132,7 +132,7 @@ export default function Authenticated({ header, children }) {
                             href={route('dashboard')}
                             active={route().current('dashboard')}
                         >
-                            Dashboard
+                            Weather Dashboard
                         </ResponsiveNavLink>
                     </div>
 
